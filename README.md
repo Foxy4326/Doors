@@ -270,4 +270,4 @@ createButton("🚶 +Velocidade", function() walkspeed = walkspeed + 2 notify("Ve
 createButton("🐇 +Pulo", function() jumppower = jumppower + 5 notify("JumpPower = "..jumppower, 2) end)
 createButton("♻ Reset Speed/Jump", function() walkspeed, jumppower = 16, 50 notify("Resetado!", 2) end)
 createButton("⏩ Teleport Porta", function() teleportToNearestDoor() end)
-createButton("🗄️ Auto Loot Gavetas", function() autoLoot = not autoLoot notify("Auto Loot: "..tostring(autoLoot), 3) end)# Doors
+createButton("🗄️ Auto Loot Gavetas", function() autoLoot = not autoLoot notify("Auto Loot: "..tostring(autoLoot), 3) end)
